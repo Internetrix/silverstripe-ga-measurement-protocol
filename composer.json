@@ -1,0 +1,31 @@
+{
+  "name": "internetrix/silverstripe-ga-measurement-protocol",
+  "description": "Send Google Analytics data server-side",
+  "type": "silverstripe-vendormodule",
+  "keywords": [
+    "silverstripe",
+    "iprestriction"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jonathon Su",
+      "email": "jonathon.su@internetrix.com.au"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "silverstripe/framework" : "^4.0.0",
+    "silverstripe/cms" : "^4.0.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Internetrix\\GaMeasurementProtocol\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "installer-name": "silverstripe-ga-measurement-protocol"
+  }
+}

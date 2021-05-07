@@ -20,7 +20,7 @@ Install the module via composer:
 composer require internetrix/silverstripe-ga-measurement-protocol
 ```
 
-## Configuation & Setup
+## Configuration & Setup
 1. Set the following variables for `Internetrix\GaMeasurementProtocol\Model\GAHit` in config:
     - <b>useProductionGAProperty:</b> Set this true if you want to use the Production tracking ID. Set to false if you want to send hits to staging.
     - <b>stagingTrackingID:</b> Google Analytics UA tracking ID for staging/testing property. Expected format: 'UA-XXXXXXXX-X'

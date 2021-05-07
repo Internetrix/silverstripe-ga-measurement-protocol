@@ -1,6 +1,6 @@
 {
   "name": "internetrix/silverstripe-ga-measurement-protocol",
-  "description": "Send Google Analytics data server-side",
+  "description": "Send data to Google Analytics via server-side using Measurement Protocol",
   "type": "silverstripe-vendormodule",
   "keywords": [
     "silverstripe",

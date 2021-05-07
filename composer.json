@@ -4,7 +4,10 @@
   "type": "silverstripe-vendormodule",
   "keywords": [
     "silverstripe",
-    "iprestriction"
+    "google analytics",
+    "measurement protocol",
+    "ga measurement protocol",
+    "analytics tracking"
   ],
   "license": "BSD-3-Clause",
   "authors": [
